@@ -72,8 +72,8 @@ function json_to_c(var_name, type_name, json_list){
     "\n};"
   ].join("")
 
-
-  return definition + "\n" + declaration;
+  return "\n//generated struct file \n//see: https://github.com/JAForbes/jason for usage\n\n"+
+  definition + "\n" + declaration;
 
 }
 
