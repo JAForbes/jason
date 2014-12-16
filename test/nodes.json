@@ -1,0 +1,82 @@
+[
+  {
+    "name": "A",
+    "isDemandPoint": true,
+    "cost": 0
+  },
+  {
+    "name": "B",
+    "isDemandPoint": true,
+    "cost": 0
+  },
+  {
+    "name": "C",
+    "isDemandPoint": true,
+    "cost": 0
+  },
+  {
+    "name": "D",
+    "isDemandPoint": true,
+    "cost": 0
+  },
+  {
+    "name": "E",
+    "isDemandPoint": true,
+    "cost": 0
+  },
+  {
+    "name": "F",
+    "isDemandPoint": true,
+    "cost": 0
+  },
+  {
+    "name": "G",
+    "isDemandPoint": true,
+    "cost": 0
+  },
+  {
+    "name": "H",
+    "isDemandPoint": true,
+    "cost": 0
+  },
+  {
+    "name": "I",
+    "isDemandPoint": false,
+    "cost": 0
+  },
+  {
+    "name": "J",
+    "isDemandPoint": false,
+    "cost": 0
+  },
+  {
+    "name": "K",
+    "isDemandPoint": false,
+    "cost": 0
+  },
+  {
+    "name": "L",
+    "isDemandPoint": false,
+    "cost": 0
+  },
+  {
+    "name": "M",
+    "isDemandPoint": false,
+    "cost": 0
+  },
+  {
+    "name": "N",
+    "isDemandPoint": false,
+    "cost": 0
+  },
+  {
+    "name": "O",
+    "isDemandPoint": false,
+    "cost": 0
+  },
+  {
+    "name": "P",
+    "isDemandPoint": false,
+    "cost": 0
+  }
+]
