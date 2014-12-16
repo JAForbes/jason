@@ -34,7 +34,7 @@ struct Person people[] = {
 };
 ```
 
-Save that as a file called `people.c` and you can then `#include` in your C app:
+Save that as a file called `people.c` and `#include` it in your C app:
 
 ```
 #include <stdio.h>
