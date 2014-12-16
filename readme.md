@@ -8,7 +8,15 @@ Usage
 
 ```
 
-var generated_C = require( 'jason' )( 'people', 'Person', [{ first: "James", last: "Forbes", age: 26, awesome: true }])
+var generated_C = require( 'jason' )( 'people', 'Person', [
+    {
+      first: "James",
+      last: "Forbes",
+      age: 26,
+      awesome: true
+    }
+  ]
+)
 
 ```
 
