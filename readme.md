@@ -6,7 +6,8 @@ Usage
 
 `npm install JAForbes/jason`
 
-```
+
+```javascript
 
 var generated_C = require( 'jason' )( 'people', 'Person', [
     {
@@ -22,7 +23,7 @@ var generated_C = require( 'jason' )( 'people', 'Person', [
 
 `generated_C` would look like the following
 
-```
+```c
 struct Person {
   char *first;
   char *last;
@@ -36,7 +37,7 @@ struct Person people[] = {
 
 Save that as a file called `people.c` and `#include` it in your C app:
 
-```
+```c
 #include <stdio.h>
 #include "people.c"
 
@@ -55,4 +56,4 @@ Warning
 There has been no attempt to cover the entire JSON spec, just my own personal
 use case.
 
-But if you just want to throw arrays of non-nested objects, it should work fine.
+But if you just want to throw arrays of non-nested object at its, it should work fine.
