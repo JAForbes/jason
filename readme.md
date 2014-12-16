@@ -50,6 +50,9 @@ int main(){
 Warning
 -------
 
-`jason` is not production ready at all.  There has been no attempt the JSON spec at all.
+`jason` is not production ready at all.  
+
+There has been no attempt to cover the entire JSON spec, just my own personal
+use case.
 
 But if you just want to throw arrays of non-nested objects, it should work fine.
