@@ -1,4 +1,4 @@
-var json_to_c = require( '../app.js' ).json_to_c;
+var json_to_c = require( '../app.js' );
 var Promise = require('promise');
 var p = require('lodash.partial');
 var writeFile = Promise.denodeify(require('fs').writeFile)

@@ -73,13 +73,8 @@ function json_to_c(var_name, type_name, json_list){
   ].join("")
 
 
-  return {
-      then: function(callback){
-        return callback(definition + "\n" + declaration);
-      }
-  }
+  return definition + "\n" + declaration;
+
 }
 
-module.exports = {
-  json_to_c: json_to_c
-}
+module.exports = json_to_c
